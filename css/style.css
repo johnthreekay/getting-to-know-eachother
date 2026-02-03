@@ -82,14 +82,24 @@ a:hover {
   margin-top: 8px;
 }
 
-/* Top image (centered) */
+/* Shared image styling */
 .profile-image {
   display: block;
-  width: 100%;
-  max-width: 300px;
+  width: 100%;            
+  height: auto;
   margin: 0 auto 12px auto;
   border-radius: 8px;
   border: 2px solid rgba(255, 255, 255, 0.85);
+}
+
+/* 800 version */
+.profile-800 {
+  max-width: 800px;
+}
+
+/* 300 version */
+.profile-300 {
+  max-width: 300px;
 }
 
 /* Footer */
